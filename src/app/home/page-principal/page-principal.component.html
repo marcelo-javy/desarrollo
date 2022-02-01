@@ -1,0 +1,17 @@
+<!--
+<app-card [title]="'Banco Pichincha'"
+          [subtitle]="'Contactos'"
+          [content]="'Unete a nuestra banca web!! Banco Pichincha'"></app-card>
+-->
+<button class="btn mb-3" btnloading>
+  Precionar
+</button>
+
+<app-card [titleCard]="'Cuentas de Ahorro y Credito Banco Pichincha'" cssClass="card text-white bg-info mb-2">
+    <div class="card-body">
+      <h5 class="card-title">Banco Pichincha</h5>
+      <p class="card-text">Te ofrece todo tipo de Cuentas.</p>
+      <button class="btn btn-primary" type="button" (click)="onClickCard()">Submit</button>
+    </div>
+  <app-cronometro [minutes]="25" [segundo]="30" ></app-cronometro>
+</app-card>
